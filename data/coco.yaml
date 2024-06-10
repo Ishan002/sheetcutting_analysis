@@ -1,0 +1,10 @@
+
+train: ./coco/train2017.txt  # 118287 images
+val: ./coco/val2017.txt  # 5000 images
+
+
+# number of classes
+nc: 6
+
+# class names
+names: [ 'tractor','truck','pickup_truck','jcb','crane','cement_mixer' ]
